@@ -39,3 +39,13 @@ Generally yes. It operates on the `OnObjectPreSave` delegate and the `AssetRegis
 ## How can I contribute?
 
 Open an issue or pull request on [GitHub](https://github.com/DCode1119/DataTableMirror).
+
+## How do I run the tests?
+
+The plugin includes UE automation tests. In the editor, open **Session Frontend** (Window > Developer Tools > Session Frontend), go to the **Automation** tab, and run tests under the `DataTableMirror` category.
+
+Tests can also be run from the command line:
+
+```batch
+UnrealEditor-Cmd.exe YourProject.uproject -Run=DataTableMirrorCommandlet -ExecCmds="Automation RunTests DataTableMirror; quit"
+```
