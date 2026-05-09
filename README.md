@@ -82,6 +82,19 @@ Settings persist in `<Project>/Config/DefaultDataTableMirror.ini`.
 
 ---
 
+## Documentation
+
+Full documentation is available in the [`Docs/`](Docs/index.md) directory:
+
+| Guide | Description |
+|---|---|
+| [Getting Started](Docs/getting-started.md) | Installation, requirements, verification |
+| [Usage](Docs/usage.md) | Auto-export, console command, project settings |
+| [CI/CD Integration](Docs/ci-cd.md) | Commandlet usage in pipelines |
+| [FAQ](Docs/faq.md) | Troubleshooting and common questions |
+
+---
+
 ## Output Format
 
 JSON mirrors are written as an array of row objects. Each row includes a `"Name"` field followed by the row's data fields.
