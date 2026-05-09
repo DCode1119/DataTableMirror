@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0.0",
+	"Version": 2,
+	"VersionName": "1.0.1",
 	"FriendlyName": "DataTable Mirror",
 	"Description": "Automatically exports Unreal Engine DataTable assets to JSON on save, with a commandlet for CI/CD pipelines.",
 	"Category": "Editor",
