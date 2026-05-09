@@ -8,7 +8,7 @@
 <a href="LICENSE">
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat" alt="MIT License">
 </a>
-<img src="https://img.shields.io/badge/UE-5.4%2B-9cf?style=flat&logo=unrealengine" alt="UE 5.4+">
+<img src="https://img.shields.io/badge/UE-5.1%2B-9cf?style=flat&logo=unrealengine" alt="UE 5.1+">
 
 **An Unreal Engine editor plugin that automatically mirrors DataTable assets to JSON on save, with a headless commandlet for CI/CD pipelines.**
 
@@ -117,7 +117,7 @@ Unreal Engine DataTables are stored as binary UAsset files — terrible for vers
 
 ## Requirements
 
-- Unreal Engine 5.4+
+- Unreal Engine 5.1+
 - Editor module — not available in runtime builds
 
 ---
