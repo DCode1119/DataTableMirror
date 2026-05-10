@@ -15,8 +15,8 @@ struct FDataTableMirrorTest_SimpleRow : public FTableRowBase
 	FString Label;
 
 	UPROPERTY()
-	float Value;
+	float Value = 0.0f;
 
 	UPROPERTY()
-	int32 Count;
+	int32 Count = 0;
 };

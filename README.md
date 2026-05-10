@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="Resources/Icon128.png" width="128" height="128" alt="DataTable Mirror logo">
+
 # DataTable Mirror
 
 <a href="https://github.com/DCode1119/DataTableMirror/releases">
@@ -84,11 +86,11 @@ Settings persist in `<Project>/Config/DefaultDataTableMirror.ini`.
 
 ## Documentation
 
-Full documentation is available in the [`Docs/`](Docs/index.md) directory:
+Full documentation is available in the [`Docs/`](Docs/) directory:
 
 | Guide | Description |
 |---|---|
-| [Getting Started](Docs/getting-started.md) | Installation, requirements, verification |
+| [Getting Started](Docs/) | Installation, requirements, verification |
 | [Usage](Docs/usage.md) | Auto-export, console command, project settings |
 | [CI/CD Integration](Docs/ci-cd.md) | Commandlet usage in pipelines |
 | [FAQ](Docs/faq.md) | Troubleshooting and common questions |

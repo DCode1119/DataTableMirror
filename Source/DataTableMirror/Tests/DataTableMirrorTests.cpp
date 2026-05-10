@@ -67,11 +67,11 @@ bool FDataTableMirrorExportValidRows::RunTest(const FString& Parameters)
 		if (Obj1)
 		{
 			TestEqual(TEXT("First row Name"),
-				(*Obj1)->GetStringField("Name"), TEXT("RowAlpha"));
+				(*Obj1)->GetStringField(TEXT("Name")), TEXT("RowAlpha"));
 			TestEqual(TEXT("First row Label"),
-				(*Obj1)->GetStringField("Label"), TEXT("Alpha"));
+				(*Obj1)->GetStringField(TEXT("Label")), TEXT("Alpha"));
 			TestEqual(TEXT("First row Count"),
-				(*Obj1)->GetIntegerField("Count"), 10);
+				(*Obj1)->GetIntegerField(TEXT("Count")), 10);
 		}
 
 		const TSharedPtr<FJsonObject>* Obj2 = nullptr;
@@ -80,9 +80,9 @@ bool FDataTableMirrorExportValidRows::RunTest(const FString& Parameters)
 		if (Obj2)
 		{
 			TestEqual(TEXT("Second row Name"),
-				(*Obj2)->GetStringField("Name"), TEXT("RowBeta"));
+				(*Obj2)->GetStringField(TEXT("Name")), TEXT("RowBeta"));
 			TestEqual(TEXT("Second row Count"),
-				(*Obj2)->GetIntegerField("Count"), 20);
+				(*Obj2)->GetIntegerField(TEXT("Count")), 20);
 		}
 	}
 
