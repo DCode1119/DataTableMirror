@@ -132,8 +132,13 @@ Unreal Engine DataTables are stored as binary UAsset files — terrible for vers
 
 ## Requirements
 
-- Unreal Engine 5.1+
+- Unreal Engine 5.1+ (Tested up to 5.7)
 - Editor module — not available in runtime builds
+
+> **EngineVersion warning**: The plugin declares `"EngineVersion": "5.1.0"` for
+> broad compatibility. If you see a version mismatch warning in your build log,
+> it is safe to ignore — or update `EngineVersion` in `.uplugin` to match your
+> local engine version.
 
 ---
 
